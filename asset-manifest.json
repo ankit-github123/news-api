@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/news-api/static/css/main.0e217f7f.chunk.css",
+    "main.js": "/news-api/static/js/main.366cb540.chunk.js",
+    "main.js.map": "/news-api/static/js/main.366cb540.chunk.js.map",
+    "runtime-main.js": "/news-api/static/js/runtime-main.7a870bba.js",
+    "runtime-main.js.map": "/news-api/static/js/runtime-main.7a870bba.js.map",
+    "static/css/2.463bf4c5.chunk.css": "/news-api/static/css/2.463bf4c5.chunk.css",
+    "static/js/2.3c00ed66.chunk.js": "/news-api/static/js/2.3c00ed66.chunk.js",
+    "static/js/2.3c00ed66.chunk.js.map": "/news-api/static/js/2.3c00ed66.chunk.js.map",
+    "index.html": "/news-api/index.html",
+    "precache-manifest.ab23df3835a1c8f619fd62e01730d419.js": "/news-api/precache-manifest.ab23df3835a1c8f619fd62e01730d419.js",
+    "service-worker.js": "/news-api/service-worker.js",
+    "static/css/2.463bf4c5.chunk.css.map": "/news-api/static/css/2.463bf4c5.chunk.css.map",
+    "static/css/main.0e217f7f.chunk.css.map": "/news-api/static/css/main.0e217f7f.chunk.css.map",
+    "static/js/2.3c00ed66.chunk.js.LICENSE.txt": "/news-api/static/js/2.3c00ed66.chunk.js.LICENSE.txt",
+    "static/media/slick-theme.css": "/news-api/static/media/slick.f97e3bbf.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7a870bba.js",
+    "static/css/2.463bf4c5.chunk.css",
+    "static/js/2.3c00ed66.chunk.js",
+    "static/css/main.0e217f7f.chunk.css",
+    "static/js/main.366cb540.chunk.js"
+  ]
+}
