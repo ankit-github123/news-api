@@ -10,14 +10,15 @@ import SearchNews from "./SearchNews"
 const News = () => {
     const [searchnews,setsearchnews]=useState([]);
     const onTermSubmit = async (term) => {
-        const response = await axios.get("https://newsapi.org/v2/everything",{
+        const response = await axios.get("https://gnews.io/api/v3/search",{
             params:{
                 q:term,
-                apiKey:'593844fddaf24b28a25ac0026eb70125',
+                token:'843d4da0bd6d83c96f6592cf10da18f5',
 
             }
         })
         setsearchnews(response.data.articles);
+        console.log(response);
 
     }
   

@@ -7,7 +7,7 @@ const NewsCard = ({ topheadline }) => {
     <div class="card" style={{ width: "15rem" }}>
       <img
         className="card-img-top"
-        src={topheadline.urlToImage}
+        src={topheadline.image}
         alt="news pic"
       />
       <div class="card-body">
@@ -20,6 +20,8 @@ const NewsCard = ({ topheadline }) => {
         <a href={topheadline.url} target="_blank" className="btn btn-primary">
           read more !
         </a>
+        <br/>
+        <small class="text-muted">Last updated 3 mins ago</small>
       </div>
     </div>
   );
@@ -31,7 +33,7 @@ export default NewsCard;
 // ↵Highlights
 // ↵<ul><li>Not taking rest days can increase risk of injury
 // ↵</li><li>It can reduce exercise performance and nega… [+3310 chars]"
-// description: "Workout tips: The importance of rest and recovery cannot be stressed enough. Read here to know how taking sufficient rest days can help you achive your target fitness and weight loss goals."
+// title: "Workout tips: The importance of rest and recovery cannot be stressed enough. Read here to know how taking sufficient rest days can help you achive your target fitness and weight loss goals."
 // publishedAt: "2020-08-19T06:05:06Z"
 // source: {id: null, name: "NDTV News"}
 // title: "Weight Loss Tips: Taking Rest Days Can Keep You From Quitting Exercising- Know How - NDTV"
